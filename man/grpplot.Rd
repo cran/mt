@@ -19,7 +19,7 @@
     One of plot types: \code{strip}, \code{box}, \code{density} and
     \code{pairs}. }
   \item{\dots}{Further arguments. See corresponding entry in
-    \code{\link{xyplot}} for non-trivial details. One argument is
+    \code{\link[lattice]{xyplot}} for non-trivial details. One argument is
     \code{ep}: an integer for plotting ellipse. \code{1} and
     \code{2} for plotting overall and group ellipse, respectively.
     Otherwise, none. For details, see \code{\link{panel.elli.1}}. }

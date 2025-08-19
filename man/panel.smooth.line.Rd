@@ -12,7 +12,7 @@ panel.smooth.line(x, y,\dots)
 \arguments{
   \item{x, y}{ Variables to be plotted.}
   \item{\dots}{Further arguments. See corresponding entry in
-    \code{\link{xyplot}} for non-trivial details.  }
+    \code{\link[lattice]{xyplot}} for non-trivial details.  }
 }
 
 \value{

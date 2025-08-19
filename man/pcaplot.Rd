@@ -38,7 +38,7 @@ pca.comp(x, scale=FALSE, pcs=1:2,\dots)
     \code{abbreviate}. }
 
   \item{\dots}{ Further arguments to \code{\link{prcomp}} or
-    \code{lattice}. See corresponding entry in \code{\link{xyplot}} for
+    \code{lattice}. See corresponding entry in \code{\link[lattice]{xyplot}} for
     non-trivial details of \code{lattice}. For \code{pcaplot}, one
     argument is \code{ep}: an integer for plotting ellipse. \code{1} and
     \code{2} for plotting overall and group ellipse, respectively.

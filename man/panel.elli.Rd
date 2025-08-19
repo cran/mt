@@ -36,7 +36,7 @@ panel.outl(x, y, subscripts, groups=NULL, conf.level = 0.975, labs, \dots)
     ignored. It should be different from default \code{groups}, but has
     the same length of \code{groups}. For details, see example below.}
   \item{\dots}{Further arguments. See corresponding entry in
-    \code{\link{xyplot}} for non-trivial details.  }
+    \code{\link[lattice]{xyplot}} for non-trivial details.  }
 }
 
 \value{
@@ -45,7 +45,7 @@ panel.outl(x, y, subscripts, groups=NULL, conf.level = 0.975, labs, \dots)
 
 \details{
   \code{panel.elli} is modified from function
-  \code{\link{panel.ellipse}} in package \pkg{latticeExtra}.
+  \code{\link[latticeExtra]{panel.ellipse}} in package \pkg{latticeExtra}.
 
   \code{panel.elli.1} gives more control on how to plot ellipse for the
   current group. It also provides an option to plot ellipse based on

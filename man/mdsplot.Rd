@@ -27,7 +27,7 @@ mdsplot(x, y, method = "euclidean", dimen = c(1,2), \dots)
   are allowed.}
   \item{\dots}{
   Further arguments to \code{\link{prcomp}} or \code{lattice}. See 
-  corresponding entry in \code{\link{xyplot}} for non-trivial details of 
+  corresponding entry in \code{\link[lattice]{xyplot}} for non-trivial details of 
   \code{lattice}. For \code{pcaplot}, one argument is
     \code{ep}: an integer for plotting 95\% ellipse. \code{1} and \code{2} for 
     plotting overall and group ellipse, respectively. Otherwise, none.

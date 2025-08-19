@@ -95,12 +95,17 @@ lattice version and the later is the basic graphics version.
 
 # mt 2.0-1.19: (31-01-2022)
 
-- no changes but test against new version of randomForest 4.7.1 as requested.
+- no changes but test against new version of `randomForest` 4.7.1 as
+  requested.
 
 # mt 2.0-1.20: (12-02-2024)
 
 - No changes but new R version of R complains S3 method in RD file. So
-  change the dot as underscore for: pca_plot_wrap, mds_plot_wrap,
-  lda_plot_wrap, lda_plot_wrap_1 and pls_plot_wrap. (probably '.plot' is the
-  problem)
+  change the dot as underscore for: `pca_plot_wrap`, `mds_plot_wrap`,
+  `lda_plot_wrap`, `lda_plot_wrap_1` and `pls_plot_wrap`. (probably `.plot`
+  is the problem)
 
+# mt 2.0-1.21: (11-08-2025)
+
+- No changes but edit RD files with package anchors for `lattice` and
+  `latticeExtra`. Also change author item in DESCRIPTION.

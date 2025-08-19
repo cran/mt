@@ -89,7 +89,7 @@ hm.cols(low = "green", high = "red", n = 123)
   }
   \item{col.regions}{Color vector to be used}
   \item{scales}{A list determining how the x- and y-axes (tick marks and labels) 
-     are drawn. More details, see \code{\link{xyplot}}.
+     are drawn. More details, see \code{\link[lattice]{xyplot}}.
   }
   \item{cex}{A numeric multiplier to control character sizes for axis labels}.
   \item{low}{ Colour for low value}
